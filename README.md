@@ -29,9 +29,9 @@ Para preenchimento da sua cópia, siga as datas no arquivo “CALENDÁRIO DE PRO
 
 ## Dados do Cliente
 
-**Título do Projeto:** `<Título do projeto>`  
-**Cliente:** `<Nome do cliente>`  
-**CNPJ/CPF:** `<CNPJ ou CPF>`  
+**Título do Projeto:** `<$martMoney>`  
+**Cliente:** `<Elaine Roberta de Oliveira Teixeira>`  
+**CNPJ/CPF:** `<CPF:314058468-79>`  
 **Contato:** `<Nome do contato>`  
 **Email:** `<Email do contato>`
 
@@ -41,13 +41,13 @@ Para preenchimento da sua cópia, siga as datas no arquivo “CALENDÁRIO DE PRO
 
 **Nome completo | Curso | Disciplina**
 
-- `<Integrante 1> | <Curso> | <Disciplina>`
-- `<Integrante 2> | <Curso> | <Disciplina>`
-- `<Integrante 3> | <Curso> | <Disciplina>`
-- `<Integrante 4> | <Curso> | <Disciplina>`
-- `<Integrante 5> | <Curso> | <Disciplina>`
+- `<Nicolas Anderson Calá> | <Análise e Desenvolvimento de Sistemas> | <Programação Orientada a Objetos em Java>`
+- `<Sabrina Moreno Paes> | <Ciência da computação> | <Programação Orientada a Objetos em Java>`
+- `<Gustavo Andrade Magalhães> | <Análise e Desenvolvimento de Sistemas> | <Programação Orientada a Objetos em Java>`
+- `<Integrante 4> | <Curso> | <Programação Orientada a Objetos em Java>`
+- `<Integrante 5> | <Curso> | <Programação Orientada a Objetos em Java>`
 
-**Professor Orientador:** `<Nome completo do professor>`
+**Professor Orientador:** `<Kesede R Julio>`
 
 ---
 
