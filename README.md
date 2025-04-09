@@ -1,11 +1,3 @@
-# Documentação do Sistema
-
-⚠️ **ATENÇÃO**  
-Baixe este documento para sua máquina. Insira este arquivo no GitHub (deixe como RAW). Compartilhe o link com o orientador: profkesede64@gmail.com  
-Apague todas as instruções em vermelho da sua cópia. As instruções poderão ser consultadas a partir deste original.  
-Para preenchimento da sua cópia, siga as datas no arquivo “CALENDÁRIO DE PROJETOS.2025.1”
-
----
 
 ## SUMÁRIO
 
@@ -32,8 +24,8 @@ Para preenchimento da sua cópia, siga as datas no arquivo “CALENDÁRIO DE PRO
 **Título do Projeto:** `<$martMoney>`  
 **Cliente:** `<Elaine Roberta de Oliveira Teixeira>`  
 **CNPJ/CPF:** `<CPF:314058468-79>`  
-**Contato:** `<Nome do contato>`  
-**Email:** `<Email do contato>`
+**Contato:** `<(19) 99215-3998>`  
+**Email:** `<elaine.r.o.teixeira@hotmail.com>`
 
 ---
 
@@ -44,7 +36,7 @@ Para preenchimento da sua cópia, siga as datas no arquivo “CALENDÁRIO DE PRO
 - `<Nicolas Anderson Calá> | <Análise e Desenvolvimento de Sistemas> | <Programação Orientada a Objetos em Java>`
 - `<Sabrina Moreno Paes> | <Ciência da computação> | <Programação Orientada a Objetos em Java>`
 - `<Gustavo Andrade Magalhães> | <Análise e Desenvolvimento de Sistemas> | <Programação Orientada a Objetos em Java>`
-- `<Integrante 4> | <Curso> | <Programação Orientada a Objetos em Java>`
+- `<Zahira de Oliveira Silva> | <Ciência da Computação> | <Programação Orientada a Objetos em Java>`
 - `<Integrante 5> | <Curso> | <Programação Orientada a Objetos em Java>`
 
 **Professor Orientador:** `<Kesede R Julio>`
