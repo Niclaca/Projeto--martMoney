@@ -1,137 +1,124 @@
+📘 Documentação do Sistema
+Este repositório contém a documentação completa do projeto desenvolvido pelos alunos do Centro Universitário Unimetrocamp como parte da disciplina orientada pelo professor Kesede Rodrigues Julio. O projeto segue a metodologia ágil Scrum, com foco em resolução de problemas reais enfrentados por clientes parceiros.
 
-## SUMÁRIO
+📌 Visão Geral
+O sistema foi concebido para atender a uma demanda específica apresentada por um cliente real. A partir de reuniões e validações com o cliente, a equipe identificou o problema central, propôs soluções e estabeleceu os limites de desenvolvimento do projeto. A solução foi documentada em diferentes etapas, conforme descritas abaixo.
 
-- Dados do Cliente
-- Equipe de Desenvolvimento
-- 1. Introdução
-- 2. Objetivo
-- 3. Escopo
-- 4. Backlogs do Produto
-- 5. Cronograma
-- 6. Materiais e Métodos
-- 7. Resultados
-- 8. Conclusão
-- 9. Homologação do MVP junto ao cliente
-- 10. Divulgação
-- 11. Carta de Apresentação
-- 12. Carta de Autorização
-- 13. Relato individual do processo
+🧑‍💼 Dados do Cliente
+Título do Projeto: [$martMoney]
 
----
+Cliente: [Elaine Roberta de Oliveira Teixeira]
 
-## Dados do Cliente
+CNPJ/CPF: [314058468-79]
 
-**Título do Projeto:** `<$martMoney>`  
-**Cliente:** `<Elaine Roberta de Oliveira Teixeira>`  
-**CNPJ/CPF:** `<CPF:314058468-79>`  
-**Contato:** `<(19) 99215-3998>`  
-**Email:** `<elaine.r.o.teixeira@hotmail.com>`
+Contato: [elaine.r.o.teixeira@hotmail.com]
 
----
+👩‍💻 Equipe de Desenvolvimento
+A equipe é composta por alunos da graduação, com a orientação do professor responsável. A documentação registra:
 
-## Equipe de Desenvolvimento
+Nome completo dos integrantes:
 
-**Nome completo | Curso | Disciplina**
+[Nicolas Anderson Calá] [Análise e Desenvolvimento de Sistemas] [Programação Orientada a Objetos em Java]
+[Sabrina Moreno Paes] [Ciência da computação] [Programação Orientada a Objetos em Java]
+[Gustavo Andrade Magalhães] [Análise e Desenvolvimento de Sistemas] [Programação Orientada a Objetos em Java]
+[Zahira de Oliveira Silva] [Ciência da Computação] [Programação Orientada a Objetos em Java]
+[Thamara Oliveira da Silva] [Análise e Desenvolvimento de Sistemas] [Programação Orientada a Objetos em Java]
 
-- `<Nicolas Anderson Calá> | <Análise e Desenvolvimento de Sistemas> | <Programação Orientada a Objetos em Java>`
-- `<Sabrina Moreno Paes> | <Ciência da computação> | <Programação Orientada a Objetos em Java>`
-- `<Gustavo Andrade Magalhães> | <Análise e Desenvolvimento de Sistemas> | <Programação Orientada a Objetos em Java>`
-- `<Zahira de Oliveira Silva> | <Ciência da Computação> | <Programação Orientada a Objetos em Java>`
-- `<Integrante 5> | <Curso> | <Programação Orientada a Objetos em Java>`
 
-**Professor Orientador:** `<Kesede R Julio>`
+Nome do professor orientador:
+[Kesede Rodrigues Julio]
 
----
+🧭 Introdução:
 
-## 1. Introdução
+Introdução: O projeto $martMoney foi idealizado para solucionar um problema recorrente enfrentado por grande parte da população: a dificuldade em organizar e planejar suas finanças, além da falta de orientação sobre investimentos. A cliente, Elaine Roberta de Oliveira Teixeira, demonstrou a necessidade de uma plataforma intuitiva e acessível que auxilie tanto no controle financeiro quanto na introdução ao mundo dos investimentos.
 
-<Dica: contextualize o problema, a solução proposta, tecnologias e o impacto do sistema no cliente.>
+Como resposta a essa demanda, propomos o desenvolvimento de um aplicativo multiplataforma, que será construído com React Native para o frontend e Java no backend. Através desse sistema, os usuários poderão acompanhar seus gastos, categorizar despesas, simular investimentos e receber sugestões personalizadas com base em seus hábitos financeiros.
 
----
+A proposta do $martMoney é impactar positivamente a vida do usuário, promovendo mais consciência e autonomia financeira.
 
-## 2. Objetivo
+🎯 Objetivo:
 
-<Dica: explique o problema enfrentado pelo cliente que o sistema irá resolver.>
+Desenvolver uma plataforma que auxilie indivíduos a gerenciar melhor suas finanças pessoais e a compreender o funcionamento de investimentos básicos, proporcionando controle, previsibilidade e crescimento financeiro.
 
----
+🧩 Escopo:
 
-## 3. Escopo
+O sistema contemplará os seguintes requisitos principais:
 
-<Inclua 2 ou 3 requisitos principais e os limites do que será ou não implementado.>
+Gestão de Finanças Pessoais: cadastro de despesas e receitas, com categorização automática;
 
----
+Simulação e Acompanhamento de Investimentos: interface simples para usuários entenderem e compararem diferentes tipos de aplicações financeiras.
 
-## 4. Backlogs do Produto
+Fora do escopo: Integração direta com bancos via Open Finance, suporte a criptomoedas, e análises avançadas com inteligência artificial (neste primeiro MVP).
 
-<Lista de requisitos levantados com o cliente, com breve explicação.>
+📋 Backlogs do Produto 
+1. Cadastro de Usuário
+Permite criar uma conta com autenticação segura.
 
----
+2. Registro de Entradas e Saídas
+Interface para inserir receitas e despesas, com categorias definidas.
 
-## 5. Cronograma
+3. Relatórios Visuais
+Gráficos de pizza e barras mostrando a distribuição dos gastos mensais.
 
-<Inserir imagem ou tabela com o planejamento das sprints e entregas.>
+4. Simulador de Investimentos
+Ferramenta simples para entender o rendimento de CDBs, Tesouro Direto e outros investimentos básicos.
 
----
+5. Notificações e Dicas Financeiras
+Alertas sobre vencimento de contas e dicas para melhorar o uso do dinheiro.
 
-## 6. Materiais e Métodos
+⚙️ Tecnologias Utilizadas:
 
-### Modelagem do Sistema
-<Inserir pelo menos dois diagramas UML (Ex.: Casos de Uso, Classes, MER etc.)>
+React Native: Framework para construção do frontend, garantindo um app responsivo e nativo tanto para Android quanto iOS.
 
-### Tecnologias Utilizadas
-<Quais linguagens, frameworks, bibliotecas e ferramentas foram utilizadas e para quê.>
+Java: Utilizado no backend para construção de APIs REST, com segurança e performance.
 
-### Arquitetura do Sistema
-<Inserir imagem da arquitetura e fluxo das informações.>
+Firebase (opcional): Para autenticação e base de dados inicial (em caso de MVP rápido).
 
----
+Figma / Draw.io: Ferramentas de design e modelagem visual do sistema.
 
-## 7. Resultados
 
-### Protótipo
-<Prints e descrições das telas do sistema.>
 
-### Códigos das principais funcionalidades
-<Cole trechos relevantes de código com comentários explicativos.>
+Cronograma: Planejamento completo com tarefas quinzenais.
 
----
+Materiais e Métodos:
 
-## 8. Conclusão
+Diagramas UML (Casos de Uso, Classes, MER etc.)
 
-### Impacto do Sistema
-<Como o sistema impactou o processo do cliente.>
+Tecnologias utilizadas (linguagens, bibliotecas, ferramentas)
 
-### Melhorias Futuras
-<Pelo menos uma sugestão de melhoria.>
+Arquitetura do sistema
 
----
+Resultados:
 
-## 9. Homologação do MVP junto ao cliente
+Protótipo de telas com descrições funcionais
 
-<Inserir 4 fotos da homologação com legendas e lista de presença.>
+Trechos relevantes de código com comentários
 
----
+Conclusão:
 
-## 10. Divulgação
+Impactos no processo do cliente
 
-### Linkedin do Projeto
+Melhorias futuras
 
-- Print da página
-- Link da página do projeto no LinkedIn
+Homologação do MVP:
 
-### Seminário de Projetos de Software
+Reunião com o cliente
 
-- Link público para o vídeo da apresentação
-- Inserir 4 fotos com legendas
-- Foto da lista de presença
+Fotos e lista de presença
 
-### FENETEC
+Divulgação:
 
-- Link público do vídeo da apresentação
-- Inserir 4 fotos com legendas
-- Foto da lista de presença com nomes e emails dos visitantes
+Página do projeto no LinkedIn
 
----
+Vídeo de apresentação
 
-## 11. Carta de Apresentação
+Registros fotográficos do seminário
 
+Carta de Apresentação e Autorização: Formalização do vínculo acadêmico com o cliente.
+
+Relato Individual: Reflexão pessoal de cada aluno sobre o processo desenvolvido.
+
+🧾 Observações Finais
+⚠️ Importante: Todas as instruções internas (em vermelho no documento original) devem ser apagadas na versão final.
+🔗 O documento deve ser compartilhado com o orientador via link raw do GitHub.
+📅 O preenchimento do conteúdo deve respeitar as datas estabelecidas no calendário oficial do curso.
