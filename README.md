@@ -1,128 +1,138 @@
-📘 Documentação do Sistema
-Este repositório contém a documentação completa do projeto desenvolvido pelos alunos do Centro Universitário Unimetrocamp como parte da disciplina orientada pelo professor Kesede Rodrigues Julio. O projeto segue a metodologia ágil Scrum, com foco em resolução de problemas reais enfrentados por clientes parceiros.
+# 💸 $martMoney
 
-📌 Visão Geral
-O sistema foi concebido para atender a uma demanda específica apresentada por um cliente real. A partir de reuniões e validações com o cliente, a equipe identificou o problema central, propôs soluções e estabeleceu os limites de desenvolvimento do projeto. A solução foi documentada em diferentes etapas, conforme descritas abaixo.
+## 📘 Documentação do Sistema
 
-🧑‍💼 Dados do Cliente
-Título do Projeto: [$martMoney]
+Este repositório contém a documentação completa do projeto desenvolvido pelos alunos do Centro Universitário Unimetrocamp como parte da disciplina **Programação Orientada a Objetos em Java**, sob orientação do professor **Kesede Rodrigues Julio**. O projeto adota a metodologia ágil **Scrum** e visa resolver problemas reais enfrentados por clientes parceiros.
 
-Cliente: [Elaine Roberta de Oliveira Teixeira]
+---
 
-CNPJ/CPF: [314058468-79]
+## 📌 Visão Geral
 
-Contato: [elaine.r.o.teixeira@hotmail.com]
+O sistema foi desenvolvido a partir de uma demanda apresentada pela cliente **Elaine Roberta de Oliveira Teixeira**, com o objetivo de auxiliar no controle financeiro pessoal e na compreensão básica sobre investimentos. A equipe propôs uma solução prática e intuitiva por meio de um aplicativo multiplataforma, detalhado nas seções abaixo.
 
-👩‍💻 Equipe de Desenvolvimento
-A equipe é composta por alunos da graduação, com a orientação do professor responsável. A documentação registra:
+---
 
-Nome completo dos integrantes:
+## 🧑‍💼 Dados do Cliente
 
-[Nicolas Anderson Calá] [Análise e Desenvolvimento de Sistemas] [Programação Orientada a Objetos em Java]
+- **Título do Projeto:** $martMoney – Plataforma de Controle Financeiro e Investimentos  
+- **Cliente:** Elaine Roberta de Oliveira Teixeira  
+- **CPF:** 314.058.468-79  
+- **Contato:** elaine.r.o.teixeira@hotmail.com  
 
-[Sabrina Moreno Paes] [Ciência da computação] [Programação Orientada a Objetos em Java]
+---
 
-[Gustavo Andrade Magalhães] [Análise e Desenvolvimento de Sistemas] [Programação Orientada a Objetos em Java]
+## 👩‍💻 Equipe de Desenvolvimento
 
-[Zahira de Oliveira Silva] [Ciência da Computação] [Programação Orientada a Objetos em Java]
+| Nome                       | Curso                            | Disciplina                                 |
+|---------------------------|----------------------------------|--------------------------------------------|
+| Nicolas Anderson Calá     | Análise e Desenvolvimento de Sistemas | Programação Orientada a Objetos em Java |
+| Sabrina Moreno Paes       | Ciência da Computação            | Programação Orientada a Objetos em Java    |
+| Gustavo Andrade Magalhães | Análise e Desenvolvimento de Sistemas | Programação Orientada a Objetos em Java |
+| Zahira de Oliveira Silva  | Ciência da Computação            | Programação Orientada a Objetos em Java    |
+| Thamara Oliveira da Silva | Análise e Desenvolvimento de Sistemas | Programação Orientada a Objetos em Java |
 
-[Thamara Oliveira da Silva] [Análise e Desenvolvimento de Sistemas] [Programação Orientada a Objetos em Java]
+**Professor Orientador:** Kesede Rodrigues Julio
 
+---
 
-Nome do professor orientador:
-[Kesede Rodrigues Julio]
+## 🧭 Introdução
 
-🧭 Introdução:
+O projeto **$martMoney** busca oferecer uma solução acessível para pessoas que têm dificuldade em organizar suas finanças e entender conceitos básicos de investimento. A proposta consiste em desenvolver um aplicativo que permita o controle financeiro pessoal, categorização de gastos, simulação de investimentos e fornecimento de dicas personalizadas.
 
-Introdução: O projeto $martMoney foi idealizado para solucionar um problema recorrente enfrentado por grande parte da população: a dificuldade em organizar e planejar suas finanças, além da falta de orientação sobre investimentos. A cliente, Elaine Roberta de Oliveira Teixeira, demonstrou a necessidade de uma plataforma intuitiva e acessível que auxilie tanto no controle financeiro quanto na introdução ao mundo dos investimentos.
+Desenvolvido com **React Native** no frontend e **Java** no backend, o sistema será multiplataforma e intuitivo, promovendo autonomia e educação financeira para seus usuários.
 
-Como resposta a essa demanda, propomos o desenvolvimento de um aplicativo multiplataforma, que será construído com React Native para o frontend e Java no backend. Através desse sistema, os usuários poderão acompanhar seus gastos, categorizar despesas, simular investimentos e receber sugestões personalizadas com base em seus hábitos financeiros.
+---
 
-A proposta do $martMoney é impactar positivamente a vida do usuário, promovendo mais consciência e autonomia financeira.
+## 🎯 Objetivo
 
-🎯 Objetivo:
+Criar uma plataforma digital que ajude os usuários a:
 
-Desenvolver uma plataforma que auxilie indivíduos a gerenciar melhor suas finanças pessoais e a compreender o funcionamento de investimentos básicos, proporcionando controle, previsibilidade e crescimento financeiro.
+- Organizar receitas e despesas
+- Acompanhar seus gastos de forma visual e categorizada
+- Simular rendimentos de investimentos básicos
+- Receber sugestões de melhoria com base em seus hábitos
 
-🧩 Escopo:
+---
 
-O sistema contemplará os seguintes requisitos principais:
+## 🧩 Escopo
 
-Gestão de Finanças Pessoais: cadastro de despesas e receitas, com categorização automática;
+### Funcionalidades do MVP:
 
-Simulação e Acompanhamento de Investimentos: interface simples para usuários entenderem e compararem diferentes tipos de aplicações financeiras.
+- Cadastro de receitas e despesas com categorias
+- Relatórios visuais de gastos
+- Simulação de investimentos básicos (Tesouro Direto, CDBs, etc.)
+- Notificações e lembretes sobre prazos e metas financeiras
 
-Fora do escopo: Integração direta com bancos via Open Finance, suporte a criptomoedas, e análises avançadas com inteligência artificial (neste primeiro MVP).
+### Fora do escopo (nesta etapa):
 
-📋 Backlogs do Produto 
-1. Cadastro de Usuário
-Permite criar uma conta com autenticação segura.
+- Integração bancária via Open Finance
+- Suporte a criptomoedas
+- Recursos de inteligência artificial
 
-2. Registro de Entradas e Saídas
-Interface para inserir receitas e despesas, com categorias definidas.
+---
 
-3. Relatórios Visuais
-Gráficos de pizza e barras mostrando a distribuição dos gastos mensais.
+## 📋 Backlog do Produto
 
-4. Simulador de Investimentos
-Ferramenta simples para entender o rendimento de CDBs, Tesouro Direto e outros investimentos básicos.
+1. **Cadastro de Usuário**  
+   Autenticação com segurança e gerenciamento de sessão.
 
-5. Notificações e Dicas Financeiras
-Alertas sobre vencimento de contas e dicas para melhorar o uso do dinheiro.
+2. **Registro de Entradas e Saídas**  
+   Interface para registrar despesas e receitas com categorias personalizáveis.
 
-⚙️ Tecnologias Utilizadas:
+3. **Relatórios Visuais**  
+   Gráficos de pizza e barra que mostram o comportamento financeiro mensal.
 
-React Native: Framework para construção do frontend, garantindo um app responsivo e nativo tanto para Android quanto iOS.
+4. **Simulador de Investimentos**  
+   Comparação entre tipos de investimentos e estimativa de rendimento.
 
-Java: Utilizado no backend para construção de APIs REST, com segurança e performance.
+5. **Notificações e Dicas**  
+   Alertas sobre vencimentos e recomendações de boas práticas.
 
-Firebase (opcional): Para autenticação e base de dados inicial (em caso de MVP rápido).
+---
 
-Figma / Draw.io: Ferramentas de design e modelagem visual do sistema.
+## ⚙️ Tecnologias Utilizadas
 
+- **React Native**: Interface nativa para Android e iOS.
+- **Java**: Backend com APIs REST seguras e eficientes.
+- **Firebase (opcional)**: Autenticação e banco de dados em nuvem para MVPs.
+- **Figma / Draw.io**: Protótipos de telas e modelagem UML (Casos de Uso, MER, etc).
 
+---
 
-Cronograma: Planejamento completo com tarefas quinzenais.
+## 🗓️ Cronograma (Sprint)
 
-Materiais e Métodos:
+| Fase                          | Início     | Término    |
+|------------------------------|------------|------------|
+| Planejamento do Projeto      | [xx/xx]    | [xx/xx]    |
+| Levantamento de Requisitos   | [xx/xx]    | [xx/xx]    |
+| Sprint 1 – Protótipo inicial | [xx/xx]    | [xx/xx]    |
+| Sprint 2 – MVP funcional     | [xx/xx]    | [xx/xx]    |
+| Testes e Homologação         | [xx/xx]    | [xx/xx]    |
+| Divulgação e Apresentação    | [xx/xx]    | [xx/xx]    |
 
-Diagramas UML (Casos de Uso, Classes, MER etc.)
+> _Datas devem ser preenchidas conforme planejamento no Jira._
 
-Tecnologias utilizadas (linguagens, bibliotecas, ferramentas)
+---
 
-Arquitetura do sistema
+## 📢 Divulgação
 
-Resultados:
+- **LinkedIn do Projeto:** [inserir link]  
+  Página com resumo do projeto, atualizações, equipe e orientador.
 
-Protótipo de telas com descrições funcionais
+- **Vídeo de Apresentação:** [inserir link]  
+  Demonstração prática do funcionamento do aplicativo.
 
-Trechos relevantes de código com comentários
+- **Repositório na Organization GitHub:** [inserir link]
 
-Conclusão:
+---
 
-Impactos no processo do cliente
+## 🧾 Observações Finais
 
-Melhorias futuras
+- ⚠️ As instruções internas foram removidas conforme orientação.
+- 🔗 Este `README.md` deve ser compartilhado via link raw com o orientador.
+- 📅 Todas as entregas devem respeitar o cronograma oficial definido pela disciplina.
 
-Homologação do MVP:
+---
 
-Reunião com o cliente
+> _Projeto acadêmico desenvolvido com fins educativos. Todos os dados são fictícios e utilizados para simulação de um ambiente real de desenvolvimento de software._
 
-Fotos e lista de presença
-
-Divulgação:
-
-Página do projeto no LinkedIn
-
-Vídeo de apresentação
-
-Registros fotográficos do seminário
-
-Carta de Apresentação e Autorização: Formalização do vínculo acadêmico com o cliente.
-
-Relato Individual: Reflexão pessoal de cada aluno sobre o processo desenvolvido.
-
-🧾 Observações Finais
-⚠️ Importante: Todas as instruções internas (em vermelho no documento original) devem ser apagadas na versão final.
-🔗 O documento deve ser compartilhado com o orientador via link raw do GitHub.
-📅 O preenchimento do conteúdo deve respeitar as datas estabelecidas no calendário oficial do curso.
